@@ -1,0 +1,16 @@
+<h1 class="text-center mt-3">Editing the product</h1>
+<form (ngSubmit)="editProduct()" action="" class="w-50 container text-center">
+    <input [(ngModel)]="pdata.id" type="text" class="form-control mt-2" id="pn1" placeholder="enter product id" name="id">
+    <input [(ngModel)]="pdata.productName"  type="text" class="form-control mt-2" id="pn2" placeholder="enter product name" name="pname">
+    <input [(ngModel)]="pdata.categoryId"   type="text" class="form-control mt-2" id="pn3" placeholder="enter category id" name="catid">
+    <input [(ngModel)]="pdata.description"  type="text" class="form-control mt-2" id="pn4" placeholder="enter description" name="id">
+    <input [(ngModel)]="pdata.price"  type="text" class="form-control mt-2" id="pn5" placeholder="enter price" name="price">
+    <input [(ngModel)]="pdata.image"  type="text" class="form-control mt-2" id="pn6" placeholder="enter image (post image url)" name="img">
+    <input [(ngModel)]="pdata.rating"  type="text" class="form-control mt-2" id="pn7" placeholder="enter rating" name="rating">
+    <input [(ngModel)]="pdata.review"  type="text" class="form-control mt-2" id="pn8" placeholder="enter review" name="review">
+    <input [(ngModel)]="pdata.vendorname"  type="text" class="form-control mt-2" id="pn9" placeholder="enter vendor name" name="vendname"><br>
+    <button type="submit" class="btn btn-outline-dark flex-shrink-0 mb-5">
+
+        Proceed
+    </button> <br>
+</form>

@@ -1,0 +1,47 @@
+<section class="py-5">
+    <div class="bg-primary py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder">Categories :</h1>
+                <div class="btn-group  mt-4" role="group" aria-label="Basic example">
+                    <div (click)="categoryProduct('')"><button type="button" class="btn  btn-success">All
+                            Products</button></div>
+                    <div (click)="categoryProduct(2)"> <button type="button" class="btn btn-secondary">Fashion</button>
+                    </div>
+                    <div (click)="categoryProduct(3)"> <button type="button" class="btn btn-warning">Jewellery</button>
+                    </div>
+                    <div (click)="categoryProduct(1)"><button type="button" class="btn btn-info">Electronics</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div *ngFor="let i of categoryArray|search:searchString:'productName'  " class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top" style="height: 200px;" src={{i.image}} alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{i.productName}}</h5>
+                            <!-- Product price-->
+                            {{i.price}} &#8360;
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                href="product/view/{{i.id}}">View Product</a></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>

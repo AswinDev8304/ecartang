@@ -1,0 +1,114 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Shirt",
+      "categoryId": 2,
+      "description": "casual shirt for him",
+      "price": "1650",
+      "image": "https://i.postimg.cc/vTYSxc0f/633ff2354758e8116225070a-gdpowerseller-men-non-stock-wabash.jpg",
+      "rating": 4.5,
+      "review": 5,
+      "vendorname": "ABC Textiles"
+    },
+    {
+      "id": 2,
+      "productName": "Skirt",
+      "categoryId": 2,
+      "description": "casual skirt for her",
+      "price": "1805",
+      "image": "https://i.postimg.cc/Y21gDnzR/istockphoto-184386148-612x612.jpg",
+      "rating": 3,
+      "review": 12,
+      "vendorname": "ABC Textiles"
+    },
+    {
+      "id": 3,
+      "productName": "Necklace",
+      "categoryId": 3,
+      "description": "necklace for her",
+      "price": 5000,
+      "image": "https://i.postimg.cc/26gwd1m5/download.jpg",
+      "rating": 4,
+      "review": 15,
+      "vendorname": "K&K jewellery"
+    },
+    {
+      "id": 4,
+      "productName": "Power bank",
+      "categoryId": 1,
+      "description": "10000 mah power bank",
+      "price": 2500,
+      "image": "https://i.postimg.cc/hP6C83Dr/download-1.jpg",
+      "rating": 5,
+      "review": 25,
+      "vendorname": "jk mobiles"
+    },
+    {
+      "id": 5,
+      "productName": "Pants",
+      "categoryId": 2,
+      "description": "formal pants for working men",
+      "price": "1500",
+      "image": "https://i.postimg.cc/htLx6pD4/matthew-moloney-Ye-Gao3uk8k-I-unsplash.jpg",
+      "rating": 3.5,
+      "review": 12,
+      "vendorname": "ABC Textiles"
+    },
+    {
+      "id": 6,
+      "productName": "Jacket",
+      "categoryId": 2,
+      "description": "jacket for working men",
+      "price": 5600,
+      "image": "https://i.postimg.cc/MTgc3Rvh/depositphotos-10513998-stock-photo-red-jacket.jpg",
+      "rating": 5,
+      "review": 18,
+      "vendorname": "ABC Textiles"
+    },
+    {
+      "id": 8,
+      "productName": "Bracelet",
+      "categoryId": 3,
+      "description": "bracelet for her",
+      "price": "5700",
+      "image": "https://i.postimg.cc/L69RK5L7/depositphotos-126602692-stock-photo-gold-bracelet-and-diamond-jewelry.webp",
+      "rating": 3,
+      "review": 14,
+      "vendorname": "K&K jewellery"
+    },
+    {
+      "id": 9,
+      "productName": "Phone cover",
+      "categoryId": 1,
+      "description": "protective case for phones",
+      "price": 500,
+      "image": "https://i.postimg.cc/8P6dGkGR/download-2.jpg",
+      "rating": 5,
+      "review": 26,
+      "vendorname": "jk mobiles"
+    },
+    {
+      "id": 10,
+      "productName": "Emergency Lamp",
+      "categoryId": 1,
+      "description": "bright lamp for emergency situations",
+      "price": 800,
+      "image": "https://i.postimg.cc/WpMt8tXg/Sanyo-LED-Lamp-With-Solar-SDL488417722-1-80391.jpg",
+      "rating": 3.3,
+      "review": 8,
+      "vendorname": "jk mobiles"
+    },
+    {
+      "id": "11",
+      "productName": "Frock",
+      "categoryId": "2",
+      "description": "frock for kids",
+      "price": "650",
+      "image": "https://i.postimg.cc/bNcVSX47/stock-photo-girl-frock-on-an-isolated-white-background-729032152.jpg",
+      "rating": "4",
+      "review": "4",
+      "vendorname": "abc textiles"
+    }
+  ]
+}

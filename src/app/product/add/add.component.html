@@ -1,0 +1,18 @@
+<h1 class="text-center mt-3">Add New Product</h1>
+<form [formGroup]="addForm" action="" class="w-50 container text-center">
+    <input formControlName="id" type="text" class="form-control mt-2" id="pn1" placeholder="enter product id">
+    <input formControlName="productName" type="text" class="form-control mt-2" id="pn2"
+        placeholder="enter product name">
+    <input formControlName="categoryId" type="text" class="form-control mt-2" id="pn3" placeholder="enter category id">
+    <input formControlName="description" type="text" class="form-control mt-2" id="pn4" placeholder="enter description">
+    <input formControlName="price" type="text" class="form-control mt-2" id="pn5" placeholder="enter price">
+    <input formControlName="image" type="text" class="form-control mt-2" id="pn6" placeholder="enter image (post image url)">
+    <input formControlName="rating" type="text" class="form-control mt-2" id="pn7" placeholder="enter rating">
+    <input formControlName="review" type="text" class="form-control mt-2" id="pn8" placeholder="enter review">
+    <input formControlName="vendorname" type="text" class="form-control mt-2" id="pn9"
+        placeholder="enter vendor name"><br>
+    <button (click)="add()" type="submit" class="btn btn-outline-dark flex-shrink-0 mb-5">
+
+        Add Product
+    </button> <br>
+</form>
